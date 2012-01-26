@@ -24,15 +24,15 @@
 		E1DC353414D0F443007FA35A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E1DC353614D0F443007FA35A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E1DC353814D0F443007FA35A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		E1DC353C14D0F443007FA35A /* NSDate&Formatter-Info.plist */ = {isa = PBXFileReference; path = "NSDate&Formatter-Info.plist"; sourceTree = "<group>"; };
+		E1DC353C14D0F443007FA35A /* NSDate&Formatter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NSDate&Formatter-Info.plist"; sourceTree = "<group>"; };
 		E1DC353E14D0F443007FA35A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E1DC354014D0F443007FA35A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E1DC354214D0F443007FA35A /* NSDate&Formatter-Prefix.pch */ = {isa = PBXFileReference; path = "NSDate&Formatter-Prefix.pch"; sourceTree = "<group>"; };
-		E1DC354314D0F443007FA35A /* TXAppDelegate.h */ = {isa = PBXFileReference; path = TXAppDelegate.h; sourceTree = "<group>"; };
+		E1DC354214D0F443007FA35A /* NSDate&Formatter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate&Formatter-Prefix.pch"; sourceTree = "<group>"; };
+		E1DC354314D0F443007FA35A /* TXAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TXAppDelegate.h; sourceTree = "<group>"; };
 		E1DC354414D0F443007FA35A /* TXAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TXAppDelegate.m; sourceTree = "<group>"; };
-		E1DC354614D0F443007FA35A /* TXMasterViewController.h */ = {isa = PBXFileReference; path = TXMasterViewController.h; sourceTree = "<group>"; };
+		E1DC354614D0F443007FA35A /* TXMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TXMasterViewController.h; sourceTree = "<group>"; };
 		E1DC354714D0F443007FA35A /* TXMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TXMasterViewController.m; sourceTree = "<group>"; };
-		E1DC354914D0F443007FA35A /* TXDetailViewController.h */ = {isa = PBXFileReference; path = TXDetailViewController.h; sourceTree = "<group>"; };
+		E1DC354914D0F443007FA35A /* TXDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TXDetailViewController.h; sourceTree = "<group>"; };
 		E1DC354A14D0F443007FA35A /* TXDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TXDetailViewController.m; sourceTree = "<group>"; };
 		E1DC354D14D0F443007FA35A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TXMasterViewController.xib; sourceTree = "<group>"; };
 		E1DC355014D0F443007FA35A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TXDetailViewController.xib; sourceTree = "<group>"; };
@@ -133,6 +133,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Tonny Xu";
 			};
 			buildConfigurationList = E1DC352A14D0F443007FA35A /* Build configuration list for PBXProject "NSDate&Formatter" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -292,6 +293,7 @@
 				E1DC355614D0F443007FA35A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

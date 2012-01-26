@@ -2,8 +2,8 @@
 //  TXAppDelegate.h
 //  NSDate&Formatter
 //
-//  Created by  on 12/01/26.
-//  Copyright (c) 2012年 __MyCompanyName__. All rights reserved.
+//  Created by Tonny on 12/01/26.
+//  Copyright (c) 2012年 Tonny Xu. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
