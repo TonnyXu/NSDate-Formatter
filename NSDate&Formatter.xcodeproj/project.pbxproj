@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E1DC353514D0F443007FA35A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1DC353414D0F443007FA35A /* UIKit.framework */; };
+		E1DC353714D0F443007FA35A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1DC353614D0F443007FA35A /* Foundation.framework */; };
+		E1DC353914D0F443007FA35A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1DC353814D0F443007FA35A /* CoreGraphics.framework */; };
+		E1DC353F14D0F443007FA35A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E1DC353D14D0F443007FA35A /* InfoPlist.strings */; };
+		E1DC354114D0F443007FA35A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E1DC354014D0F443007FA35A /* main.m */; };
+		E1DC354514D0F443007FA35A /* TXAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E1DC354414D0F443007FA35A /* TXAppDelegate.m */; };
+		E1DC354814D0F443007FA35A /* TXMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1DC354714D0F443007FA35A /* TXMasterViewController.m */; };
+		E1DC354B14D0F443007FA35A /* TXDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1DC354A14D0F443007FA35A /* TXDetailViewController.m */; };
+		E1DC354E14D0F443007FA35A /* TXMasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1DC354C14D0F443007FA35A /* TXMasterViewController.xib */; };
+		E1DC355114D0F443007FA35A /* TXDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1DC354F14D0F443007FA35A /* TXDetailViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E1DC353014D0F443007FA35A /* NSDate&Formatter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NSDate&Formatter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1DC353414D0F443007FA35A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E1DC353614D0F443007FA35A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E1DC353814D0F443007FA35A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E1DC353C14D0F443007FA35A /* NSDate&Formatter-Info.plist */ = {isa = PBXFileReference; path = "NSDate&Formatter-Info.plist"; sourceTree = "<group>"; };
+		E1DC353E14D0F443007FA35A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E1DC354014D0F443007FA35A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E1DC354214D0F443007FA35A /* NSDate&Formatter-Prefix.pch */ = {isa = PBXFileReference; path = "NSDate&Formatter-Prefix.pch"; sourceTree = "<group>"; };
+		E1DC354314D0F443007FA35A /* TXAppDelegate.h */ = {isa = PBXFileReference; path = TXAppDelegate.h; sourceTree = "<group>"; };
+		E1DC354414D0F443007FA35A /* TXAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TXAppDelegate.m; sourceTree = "<group>"; };
+		E1DC354614D0F443007FA35A /* TXMasterViewController.h */ = {isa = PBXFileReference; path = TXMasterViewController.h; sourceTree = "<group>"; };
+		E1DC354714D0F443007FA35A /* TXMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TXMasterViewController.m; sourceTree = "<group>"; };
+		E1DC354914D0F443007FA35A /* TXDetailViewController.h */ = {isa = PBXFileReference; path = TXDetailViewController.h; sourceTree = "<group>"; };
+		E1DC354A14D0F443007FA35A /* TXDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TXDetailViewController.m; sourceTree = "<group>"; };
+		E1DC354D14D0F443007FA35A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TXMasterViewController.xib; sourceTree = "<group>"; };
+		E1DC355014D0F443007FA35A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TXDetailViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E1DC352D14D0F443007FA35A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1DC353514D0F443007FA35A /* UIKit.framework in Frameworks */,
+				E1DC353714D0F443007FA35A /* Foundation.framework in Frameworks */,
+				E1DC353914D0F443007FA35A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E1DC352514D0F443007FA35A = {
+			isa = PBXGroup;
+			children = (
+				E1DC353A14D0F443007FA35A /* NSDate&Formatter */,
+				E1DC353314D0F443007FA35A /* Frameworks */,
+				E1DC353114D0F443007FA35A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E1DC353114D0F443007FA35A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1DC353014D0F443007FA35A /* NSDate&Formatter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1DC353314D0F443007FA35A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E1DC353414D0F443007FA35A /* UIKit.framework */,
+				E1DC353614D0F443007FA35A /* Foundation.framework */,
+				E1DC353814D0F443007FA35A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E1DC353A14D0F443007FA35A /* NSDate&Formatter */ = {
+			isa = PBXGroup;
+			children = (
+				E1DC354314D0F443007FA35A /* TXAppDelegate.h */,
+				E1DC354414D0F443007FA35A /* TXAppDelegate.m */,
+				E1DC354614D0F443007FA35A /* TXMasterViewController.h */,
+				E1DC354714D0F443007FA35A /* TXMasterViewController.m */,
+				E1DC354914D0F443007FA35A /* TXDetailViewController.h */,
+				E1DC354A14D0F443007FA35A /* TXDetailViewController.m */,
+				E1DC354C14D0F443007FA35A /* TXMasterViewController.xib */,
+				E1DC354F14D0F443007FA35A /* TXDetailViewController.xib */,
+				E1DC353B14D0F443007FA35A /* Supporting Files */,
+			);
+			path = "NSDate&Formatter";
+			sourceTree = "<group>";
+		};
+		E1DC353B14D0F443007FA35A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E1DC353C14D0F443007FA35A /* NSDate&Formatter-Info.plist */,
+				E1DC353D14D0F443007FA35A /* InfoPlist.strings */,
+				E1DC354014D0F443007FA35A /* main.m */,
+				E1DC354214D0F443007FA35A /* NSDate&Formatter-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E1DC352F14D0F443007FA35A /* NSDate&Formatter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1DC355414D0F443007FA35A /* Build configuration list for PBXNativeTarget "NSDate&Formatter" */;
+			buildPhases = (
+				E1DC352C14D0F443007FA35A /* Sources */,
+				E1DC352D14D0F443007FA35A /* Frameworks */,
+				E1DC352E14D0F443007FA35A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NSDate&Formatter";
+			productName = "NSDate&Formatter";
+			productReference = E1DC353014D0F443007FA35A /* NSDate&Formatter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E1DC352714D0F443007FA35A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = E1DC352A14D0F443007FA35A /* Build configuration list for PBXProject "NSDate&Formatter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E1DC352514D0F443007FA35A;
+			productRefGroup = E1DC353114D0F443007FA35A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E1DC352F14D0F443007FA35A /* NSDate&Formatter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E1DC352E14D0F443007FA35A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1DC353F14D0F443007FA35A /* InfoPlist.strings in Resources */,
+				E1DC354E14D0F443007FA35A /* TXMasterViewController.xib in Resources */,
+				E1DC355114D0F443007FA35A /* TXDetailViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E1DC352C14D0F443007FA35A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1DC354114D0F443007FA35A /* main.m in Sources */,
+				E1DC354514D0F443007FA35A /* TXAppDelegate.m in Sources */,
+				E1DC354814D0F443007FA35A /* TXMasterViewController.m in Sources */,
+				E1DC354B14D0F443007FA35A /* TXDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E1DC353D14D0F443007FA35A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1DC353E14D0F443007FA35A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E1DC354C14D0F443007FA35A /* TXMasterViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1DC354D14D0F443007FA35A /* en */,
+			);
+			name = TXMasterViewController.xib;
+			sourceTree = "<group>";
+		};
+		E1DC354F14D0F443007FA35A /* TXDetailViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1DC355014D0F443007FA35A /* en */,
+			);
+			name = TXDetailViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E1DC355214D0F443007FA35A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E1DC355314D0F443007FA35A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E1DC355514D0F443007FA35A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSDate&Formatter/NSDate&Formatter-Prefix.pch";
+				INFOPLIST_FILE = "NSDate&Formatter/NSDate&Formatter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E1DC355614D0F443007FA35A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSDate&Formatter/NSDate&Formatter-Prefix.pch";
+				INFOPLIST_FILE = "NSDate&Formatter/NSDate&Formatter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E1DC352A14D0F443007FA35A /* Build configuration list for PBXProject "NSDate&Formatter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1DC355214D0F443007FA35A /* Debug */,
+				E1DC355314D0F443007FA35A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1DC355414D0F443007FA35A /* Build configuration list for PBXNativeTarget "NSDate&Formatter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1DC355514D0F443007FA35A /* Debug */,
+				E1DC355614D0F443007FA35A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E1DC352714D0F443007FA35A /* Project object */;
+}
